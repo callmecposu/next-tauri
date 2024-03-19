@@ -31,3 +31,16 @@ body {
     text-wrap: balance;
   }
 }
+
+.titlebar {
+  height: 30px;
+  background: #329ea3;
+  user-select: none;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  @apply bg-dim-blue;
+}
